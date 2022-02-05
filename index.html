@@ -98,7 +98,7 @@
           </div>
         </div>
         <div class="col-lg-12 col-xl-6">
-          <img src="img/pana.svg" alt="pana-img" class="desktop">
+          <img src="img/pana.svg" alt="pana-img" class="hero__desktop desktop">
         </div>
       </div>
     </div>
@@ -135,7 +135,8 @@
             <div class="product__card-body card-body">
               <img src="img/product1.svg" alt="product1" class="product__icon mb-4">
               <h5 class="card-title">Our Product</h5>
-              <p class="product__text card-text">Our product is made on the base of our <br> team’s careful research and analyses, <br> ranging from internet based <br> application.</p>
+              <p class="product__text card-text">Our product is made on the base of our <br> team’s careful research and
+                analyses, <br> ranging from internet based <br> application.</p>
               <a href="#" class="btn btn-primary">Read More</a>
             </div>
           </div>
@@ -145,7 +146,8 @@
             <div class="product__card-body card-body">
               <img src="img/verified1.svg" alt="varified" class="product__icon mb-4">
               <h5 class="card-title">Our Service</h5>
-              <p class="product__text card-text">DSI’s shared service solutions focus on the front-end based software development, designed specifically for the banking and financial sectors.
+              <p class="product__text card-text">DSI’s shared service solutions focus on the front-end based software
+                development, designed specifically for the banking and financial sectors.
               </p>
               <a href="#" class="btn btn-primary">Read More</a>
             </div>
@@ -156,7 +158,8 @@
             <div class="product__card-body card-body">
               <img src="img/cogwheel1.svg" alt="cogwheel" class="product__icon mb-4">
               <h5 class="card-title">Our Technology</h5>
-              <p class="product__text card-text">First JAVA, runs on more than 850 million personal computers worldwide, and on billions of devices worldwide, including mobile and TV devices.</p>
+              <p class="product__text card-text">First JAVA, runs on more than 850 million personal computers worldwide,
+                and on billions of devices worldwide, including mobile and TV devices.</p>
               <a href="#" class="btn btn-primary">Read More</a>
             </div>
           </div>
@@ -195,7 +198,14 @@
   </footer>
 
   <script src="js/bootstrap.bundle.min.js"></script>
-  <script src="js/main.js"></script>
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script>
+    $(function () {
+      $('.hero__desktop').animate({
+        'opacity': '1'
+      }, 1000)
+    })
+  </script>
 </body>
 
 </html>
